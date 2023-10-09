@@ -16,7 +16,8 @@ ggplot(data.frame(x = 1:100, y = stationary_series), aes(x, y)) +
   geom_line() +
   labs(title = "Stationary Time Series")
   
-1f-ab022cb8e611](https://github.com/SethCodesABitForSchool/Stationary-Non-Stationary/assets/147195203/8df3d363-7b95-45a5-b398-529c486012b5)
+![f2ec5d91-0c0a-439d-8173-fc33109d8d01](https://github.com/SethCodesABitForSchool/Stationary-Non-Stationary/assets/147195203/82320b8d-4252-44f6-8221-15bb80621040)
+
 
 # Perform ADF test for stationarity
 adf_test_stationary <- adf.test(stationary_series)

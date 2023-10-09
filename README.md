@@ -15,6 +15,8 @@ stationary_series <- rnorm(100, mean = 0, sd = 1)
 ggplot(data.frame(x = 1:100, y = stationary_series), aes(x, y)) +
   geom_line() +
   labs(title = "Stationary Time Series")
+  
+1f-ab022cb8e611](https://github.com/SethCodesABitForSchool/Stationary-Non-Stationary/assets/147195203/8df3d363-7b95-45a5-b398-529c486012b5)
 
 # Perform ADF test for stationarity
 adf_test_stationary <- adf.test(stationary_series)
@@ -27,6 +29,9 @@ non_stationary_series <- seq(1, 100, length.out = 100) + rnorm(100, mean = 0, sd
 ggplot(data.frame(x = 1:100, y = non_stationary_series), aes(x, y)) +
   geom_line() +
   labs(title = "Non-Stationary Time Series")
+
+![c4d157ce-4e18-4ae3-9965-b49716d07c65](https://github.com/SethCodesABitForSchool/Stationary-Non-Stationary/assets/147195203/fe4a5f5e-7d54-4a48-9ed6-fac4ad011e5f)
+
 
 # Perform ADF test for stationarity
 adf_test_non_stationary <- adf.test(non_stationary_series)

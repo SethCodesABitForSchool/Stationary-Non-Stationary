@@ -1,4 +1,4 @@
-# Stationary-Non-Stationary
+# Stationary & Non Stationary data - Please do not use/cite
 Synthetic time series with a constant mean and variance and then modify it to introduce non-stationarity.
 # Load required libraries
 install.packages("ggplot2")
